@@ -22,7 +22,7 @@ The final project is composed of 3 parts:
 	- Items: Stores the items created
 	- Folders: Stores the created folders.
 	- Users: Stores the registered users.
-	In the following diagram you can see the relationships.![db](https://github.com/mariano9478/ensolvers/blob/support/db.jpg)
+	In the following diagram you can see the relationships.![db](https://github.com/mariano9478/ensolvers/blob/main/support/db.jpg)
 	
 - Fron-end: The front-end of the project is developed in Vue.JS. It has a single view which requests the Log In when it is required and the list of tasks when there is already a logged in user. Only the items created by the logged in user are shown. Axios is used for communication with the server, Sweetalert2 is used for log in, sign in and folder creation pop ups and crypto is used for user password encryption. The password for registration and login is encrypted with SHA256.
 
@@ -62,10 +62,10 @@ USING THE PAGE
 
 If you search for "localhost:8080" in the browser you will find the following view:
 
-![login](https://github.com/mariano9478/ensolvers/blob/support/login.jpg)
+![login](https://github.com/mariano9478/ensolvers/blob/main/support/login.jpg)
 
 Here you have two options, register as a new user or login with your account. Once you have logged in you will see the following:
-![page](https://github.com/mariano9478/ensolvers/blob/support/page.jpg)
+![page](https://github.com/mariano9478/ensolvers/blob/main/support/page.jpg)
 The page allows you to:
 
 - Create items: using the section marked in orange you can create items by typing the text you want to display and assign it to a folder.
